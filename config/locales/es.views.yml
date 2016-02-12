@@ -1,0 +1,7 @@
+es:
+  images:
+    index:
+      title: 'Imágenes'
+    
+    new:
+      title: 'Nueva %{model}'
