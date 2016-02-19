@@ -1,7 +1,14 @@
 es:
+  categories:
+    portrait: "Retrato"
+    landscape: "Panorama"
+    city exploration: "Explorando la ciudad"
+    nature: "Naturaleza"
+    animals: "Animales"
+
   images:
     index:
       title: 'Imágenes'
-    
+
     new:
       title: 'Nueva %{model}'
