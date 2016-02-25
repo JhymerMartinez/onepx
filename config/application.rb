@@ -30,6 +30,6 @@ module Onepx
       generate.test_framework :minitest, spec: true, fixture: true
       generate.wiew_specs false
     end
-
+    config.autoload_paths += %W(#{config.root}/lib)
   end
 end

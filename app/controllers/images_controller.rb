@@ -8,9 +8,10 @@ class ImagesController < ApplicationController
 
   def create
     @image = Image.new secure_params
-    @image.save
-
-    redirect_to images_path
+    if @image.save
+      return redirect_to images_path, notice: t('.created', model: @image.class.model_name.human)
+    end
+    render :new
   end
 
   private
