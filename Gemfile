@@ -8,6 +8,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'puma'
+gem 'carrierwave'
+gem 'mini_magick'
 
 group :test do
   gem 'minitest-rails'
